@@ -6,3 +6,8 @@ targetImage.addEventListener("click", function() {
     targetImage.classList.remove("small");
 });
 
+if (targetImage.classList.contains("small")) {
+    // ...
+} else {
+    // ...
+}
