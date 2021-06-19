@@ -1,3 +1,48 @@
 a:hover{
    color:green;
 }
+*{
+        margin: 5px;
+        padding: 0px;
+    }
+body {
+
+    width: 1300px;
+    margin:0 auto;
+    outline: 1px solid;
+    display:flex;
+    flex-direction: column;
+
+  }
+header{
+    width:99%;
+    outline: 1px solid;
+
+  }
+main{
+    width:99%;
+    outline: 1px solid;
+    display:flex;
+    flex: auto;
+
+}
+
+aside{
+
+    width:100%;
+    outline: 1px solid;
+    flex: 1;
+}
+
+article{
+    width:100%;
+    outline: 1px solid;
+    flex: 3;
+
+}
+
+footer{
+    width:99%;
+    outline: 1px solid;
+
+}
